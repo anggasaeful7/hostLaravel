@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('portofolio');
+    return view('angga');
 });
+Route::get('/detail', function () {
+    return view('index');
+});
+
 
 Route::get('/profile', function () {
     $nama = "Angga Saeful";

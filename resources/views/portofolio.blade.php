@@ -22,24 +22,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Other
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">About</a></li>
-                  <li><a class="dropdown-item" href="#">Help</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Contact</a></li>
-                </ul>
+                <a class="nav-link" href="#featured">Featured</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Logged!</a>
+                <a class="nav-link" href="#patner">Patner</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -52,7 +44,7 @@
     <!-- Navbar  -->
     <div class="container mt-2">
         <!-- Carousel  -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" id="home">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -94,7 +86,7 @@
       <!-- Carousel  -->
 
       <!-- Card  -->
-      <div class="card text-center mt-2">
+      <div class="card text-center mt-2" id="featured">
         <div class="card-header">
           Featured
         </div>
@@ -110,7 +102,7 @@
       <!-- Card  -->
 
       <!-- Card2  -->
-        <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-2" id="patner">
           <div class="col">
             <div class="card">
               <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
@@ -152,7 +144,7 @@
     </div>
 
      <!-- Contact us  -->
-     <div class="mt-3 container rounded"">
+     <div class="mt-3 container rounded"" id="contact">
 
         <div class="card " style="background-color: #BFEFED;">
               <div class="card-body">
